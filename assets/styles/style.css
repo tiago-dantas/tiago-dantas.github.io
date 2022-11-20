@@ -2,10 +2,37 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ebdfcc;
+  background-color: #121212;
 }
 
+/* ========== BAR NAVIGATION ========== */
+
 .contMenu {
-  background-color: white;
-  border: 1px solid black;
+  width: 100%;
+  background: rgba(19, 44, 97, 0.137);
+  border-bottom: solid 1px rgba(74, 71, 88, 0.452);
+  position: fixed;
+  top: 0;  
+  z-index: 1;
+  display: flex;  
+  justify-content: space-around;
+
 }
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #cde0bf;  
+}
+
+a:hover {
+  color: rgb(230, 94, 31);
+
+}
+
+
+/* ========== BAR NAVIGATION ========== */
